@@ -1,11 +1,12 @@
-//weather
+--weather
 
+--create table 
 create table weather (
 temp_id  int primary key,
 record_Date date,
 temperature int		
 );
-
+-- insert  value to the table 
 Insert Into weather (temp_id, record_Date,temperature) Values 
 (1, '2023-06-28', 86),
 (2, '2023-06-27', 70),
